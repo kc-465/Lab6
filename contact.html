@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us | PLACEHOLDER INC.</title>
+        <title>Contact Us | Transit News</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script type="module" src="js/bootstrap.bundle.min.js"></script>
@@ -36,6 +36,44 @@
                 </dialog>
             </div>
         </nav>
-
+        <h1 class="mb-4">Contact Us</h1>
+        <form class="row">
+            <div class="mb-3 md:col-6">
+                <label for="inputFirst" class="form-label">First name</label>
+                <input type="text" class="form-field" id="inputFirst" aria-describedby="helpFirst">
+            </div>
+            <div class="mb-3 md:col-6">
+                <label for="inputLast" class="form-label">Last name</label>
+                <input type="text" class="form-field" id="inputLast" aria-describedby="helpLast">
+            </div>
+            <div class="mb-3 md:col-6">
+                <label for="inputLast" class="form-label">Form Type</label>
+                <div class="form-field">
+                    <input type="radio" id="fieldPromptA" class="radio" name="fieldRadioGroup" />
+                    <label for="fieldRadio1">Comment</label>
+                </div>
+                <div class="form-field">
+                    <input type="radio" id="fieldPromptB" class="radio" name="fieldRadioGroup" />
+                    <label for="fieldRadio2">Question</label>
+                </div>
+                <div class="form-field">
+                    <input type="radio" id="fieldPromptC" class="radio" name="fieldRadioGroup" />
+                    <label for="fieldRadio2">Support</label>
+                </div>
+            </div>
+            <div class="mb-3 md:col-6">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="helpEmail">
+            </div>
+            <div class="mb-3 md:col-12">
+                <label for="inputQuestion" class="form-label">Form Field</label>
+                <input type="text" class="form-control" id="inputQuestion" aria-describedby="helpQuestion">
+            </div>
+            <div class="mb-3 md:col-12">
+                <label for="inputPerm" class="form-label">I confirm that the details and information provided above are correct and accurate.</label><br>
+                <input type="checkbox" id="fieldCheck" class="check"/>
+            </div>
+            <button type="submit" class="btn-solid theme-primary">Submit</button>
+        </form>
     </body>
 </html>
